@@ -1,21 +1,20 @@
 ## Notice
-Active development for this script has ended. Issues will no longer be looked into and no more updates will be made.
 
+Active development for this script has ended. Issues will no longer be looked into and no more updates will be made.
 
 **Using this script may result in your account being suspended, use at your own risk.**
 
-
 # PyInstaLive
+
 ![Version 4.0.2](https://img.shields.io/badge/Version-4.0.2-orange.svg)
 ![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-3776ab.svg)
-
 
 This Python script enables you to download ongoing Instagram livestreams as a video file.
 
 ![](https://raw.githubusercontent.com/dvingerh/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
 
-
 ## Table of Contents
+
 - [Quickstart](https://github.com/dvingerh/PyInstaLive#quickstart)
 - [Installation](https://github.com/dvingerh/PyInstaLive#installation)
 - [Usage](https://github.com/dvingerh/PyInstaLive#usage)
@@ -44,27 +43,29 @@ Make sure all tools are accessible via command line (added to your PATH if on Wi
 
 ## Installation
 
-*Tip — To install PyInstaLive with the latest commit changes, remove the version tag from the install command.*
+_Tip — To install PyInstaLive with the latest commit changes, remove the version tag from the install command._
 
 Run the following command in your command line (might need to be run as administrator on Windows):
+
 ```bash
-pip install git+https://github.com/dvingerh/PyInstaLive.git@4.0.2
+pip install git+https://github.com/anasomar1/PyInstaLive.git
 ```
 
 ## Usage
 
-Make sure there is a configuration file called ``pyinstalive.ini`` in the directory you want to run PyInstaLive from.
+Make sure there is a configuration file called `pyinstalive.ini` in the directory you want to run PyInstaLive from.
 
 PyInstaLive will automatically generate a default configuration file for you to edit if one is not present already.
 
 Here is an example of a valid configuration file:
+
 ```ini
 [pyinstalive]
 username = johndoe
 password = grapefruit
-download_path = 
-ffmpeg_path = 
-download_comments = True    
+download_path =
+ffmpeg_path =
+download_comments = True
 cmd_on_started =
 cmd_on_ended =
 clear_temp_files = False
