@@ -48,7 +48,7 @@ _Tip — To install PyInstaLive with the latest commit changes, remove the versi
 Run the following command in your command line (might need to be run as administrator on Windows):
 
 ```bash
-pip install git+https://github.com/anasomar1/PyInstaLive.git
+pip install git+https://github.com/S4MS3P101/PyInstaLive.git
 ```
 
 ## Usage
